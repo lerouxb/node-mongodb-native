@@ -1004,7 +1004,7 @@ export class Collection<TSchema extends Document = Document> {
   }
 
   /**
-   * @internal
+   * @experimental
    *
    * Returns all search indexes for the current collection.
    *
@@ -1014,7 +1014,7 @@ export class Collection<TSchema extends Document = Document> {
    */
   listSearchIndexes(options?: ListSearchIndexesOptions): ListSearchIndexesCursor;
   /**
-   * @internal
+   * @experimental
    *
    * Returns all search indexes for the current collection.
    *
@@ -1041,7 +1041,7 @@ export class Collection<TSchema extends Document = Document> {
   }
 
   /**
-   * @internal
+   * @experimental
    *
    * Creates a single search index for the collection.
    *
@@ -1056,7 +1056,7 @@ export class Collection<TSchema extends Document = Document> {
   }
 
   /**
-   * @internal
+   * @experimental
    *
    * Creates multiple search indexes for the current collection.
    *
@@ -1074,7 +1074,7 @@ export class Collection<TSchema extends Document = Document> {
   }
 
   /**
-   * @internal
+   * @experimental
    *
    * Deletes a search index by index name.
    *
@@ -1090,7 +1090,7 @@ export class Collection<TSchema extends Document = Document> {
   }
 
   /**
-   * @internal
+   * @experimental
    *
    * Updates a search index by replacing the existing index definition with the provided definition.
    *
